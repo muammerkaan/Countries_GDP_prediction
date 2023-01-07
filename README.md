@@ -1,21 +1,25 @@
-# Countries-GDP-prediction [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/zeglam/countries-gdp-prediction/app.py)
+# Countries-GDP-prediction 
+
+#### Project Goal
+The goal of the project is to understand this dataset, obtain valuable insights from it and finally to train a model that can predict the GDP per capita of a country. 
 
 #### Data Source
-We have 'Countries of The World' data set 
+We have the 'Countries of The World' data set 
 (from kaggle: Fernando Lasso: https://www.kaggle.com/fernandol/countries-of-the-world).
 
 #### Data Description
-This dataset have each country as a data point (227 countries in total), and for each, we have 20 columns, each column represents a different aspect or measure of the specific country. 
+This dataset has every country as a data point (227 countries in total) and for each country there are 20 varibles with each variable representing a different qualitative or quantitative feature of that country.
 
-#### Project Goal
-The goal of the project is to understand this dataset, get some insights from it, and finally to train a model that can predict GDP per capita for each country. 
+Comparative boxplot for the average GDP per capita of each region: 
+![](/gdp.png)
 
-![](/regional-average-gdp-per-capita.png)
+Hexplot to display the strong relationship between the GDP per capita and the number of phones of each country:
+![](/phones.png)
 
 #### Conclusion 
-4 different learning regressors (Linear Regression, SVM, Random Forest, and Gradient Boosting) were tested, and we have achieved the best prediction performance using Random Forest, followed by Gradient Boosting, then Linear Regression, while SVM achieved the worst performance of the four.
+4 different learning regressors (Linear Regression, SVM, Random Forest, and Gradient Boosting) were tested and we have achieved the best prediction performance using Random Forest, followed by Gradient Boosting, then Linear Regression, while SVM achieved the worst performance of the four.
 
-The best prediction performance was achieved with a Random Forest regressor, using all features in the dataset, and resulted in the following metrics:
+The best prediction performance was achieved with a Random Forest regressor, using all of the features in the dataset which resulted in the following metrics:
 
 * Mean Absolute Error (MAE): 2142.13
 * Root mean squared error (RMSE): 3097.19
