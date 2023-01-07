@@ -19,6 +19,9 @@ Hexplot to display the strong relationship between the GDP per capita and the nu
 #### Conclusion 
 4 different learning regressors (Linear Regression, SVM, Random Forest, and Gradient Boosting) were tested and we have achieved the best prediction performance using Random Forest, followed by Gradient Boosting, then Linear Regression, while SVM achieved the worst performance of the four.
 
+Best results from the four differnet models:
+![](/overall_performance.png)
+
 The best prediction performance was achieved with a Random Forest regressor, using all of the features in the dataset which resulted in the following metrics:
 
 * Mean Absolute Error (MAE): 2142.13
@@ -27,5 +30,6 @@ The best prediction performance was achieved with a Random Forest regressor, usi
 
 (gdp_per_capita values in the dataset ranges from 500 to 55100 USD).
 
+Random Forest Regressor:
 ![](/Prediction_performance.png)
 
