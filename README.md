@@ -31,5 +31,5 @@ The best prediction performance was achieved with a Random Forest regressor, usi
 (gdp_per_capita values in the dataset ranges from 500 to 55100 USD).
 
 Random Forest Regressor:
-![](/Prediction_performance.png)
+![](/rff.png)
 
